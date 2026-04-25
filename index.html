@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Promayon | Portfolio BUT R&T</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Animation Elements -->
+    <div class="bg-shape shape1"></div>
+    <div class="bg-shape shape2"></div>
+    <div class="bg-shape shape3"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">LP<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Mes Projets</a></li>
+                <li><a href="#personal-projects">Projets Persos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <span class="greeting">Bonjour, je suis</span>
+            <h1>Lucas Promayon</h1>
+            <h2 class="typing-text">Étudiant en BUT Réseaux & Télécommunications</h2>
+            <p class="hero-desc">À la recherche d'une <strong>alternance pour ma 3ème année (BUT3)</strong>. Passionné
+                par l'IoT, la Cybersécurité et l'automatisation des infrastructures.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary">Voir mes projets</a>
+                <a href="#contact" class="btn secondary">Me contacter</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="glass-card profile-card">
+                <i class='bx bx-network-chart icon-large'></i>
+                <div class="card-info">
+                    <h3>Réseaux & Cybersécurité</h3>
+                    <p>Déploiement & Sécurisation</p>
+                </div>
+            </div>
+            <div class="glass-card profile-card card-2">
+                <i class='bx bx-microchip icon-large'></i>
+                <div class="card-info">
+                    <h3>IoT & Télécoms</h3>
+                    <p>Conception & Transmission</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">À Propos de moi</h2>
+            <div class="about-content glass-panel">
+                <div class="about-text">
+                    <p>Actuellement en 2ème année de BUT Réseaux et Télécommunications, je me spécialise dans la
+                        conception, le déploiement et la sécurisation d'infrastructures. Je suis activement à la
+                        recherche d'une <strong>alternance pour ma 3ème année de BUT</strong> afin d'approfondir mes
+                        compétences terrain.</p>
+                    <p>Par la suite, j'ai pour ambition de poursuivre mes études en <strong>école d'ingénieur</strong>
+                        pour consolider mon expertise. Les défis complexes, notamment ceux liés à l'Internet des Objets
+                        (IoT) et à la Cybersécurité, m'animent au quotidien.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">3</span>
+                        <span class="stat-text">Semestres validés</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-text">Projets Majeurs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-grid">
+
+                <!-- Highlighted Skill: Cyber -->
+                <div class="skill-category glass-panel highlight-skill cyber-glow">
+                    <div class="category-header">
+                        <i class='bx bx-shield-quarter'></i>
+                        <h3>Cybersécurité</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span>Pare-feu (pfSense, Fortigate)</span></li>
+                        <li><span>VPN (IPsec, OpenVPN)</span></li>
+                        <li><span>PKI & Certificats</span></li>
+                        <li><span>Pentest & Vulnérabilités</span></li>
+                    </ul>
+                </div>
+
+                <!-- Highlighted Skill: IoT -->
+                <div class="skill-category glass-panel highlight-skill iot-glow">
+                    <div class="category-header">
+                        <i class='bx bx-broadcast'></i>
+                        <h3>IoT & Télécoms</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span>Reverse Eng. de Trames Radio</span></li>
+                        <li><span>GNU Radio & SDR</span></li>
+                        <li><span>Arduino & Capteurs</span></li>
+                        <li><span>Modulation de signaux</span></li>
+                    </ul>
+                </div>
+
+                <div class="skill-category glass-panel">
+                    <div class="category-header">
+                        <i class='bx bx-server'></i>
+                        <h3>Réseaux & Systèmes</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span>Routage & Commutation (Cisco)</span></li>
+                        <li><span>ACLs & Adressage IP</span></li>
+                        <li><span>Cisco Modeling Labs (CML)</span></li>
+                        <li><span>Administration Linux</span></li>
+                    </ul>
+                </div>
+
+                <div class="skill-category glass-panel">
+                    <div class="category-header">
+                        <i class='bx bx-code-alt'></i>
+                        <h3>Développement & Automatisation</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span>Python & Scripting</span></li>
+                        <li><span>Serveurs Web (CherryPy, Nginx, Apache)</span></li>
+                        <li><span>HTML / CSS / JS</span></li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Mes Projets Phares</h2>
+            <p class="section-subtitle">Aperçu de mes réalisations durant le BUT, avec un focus sur mon objet connecté
+                et la Cyber.</p>
+
+            <div class="projects-grid">
+
+                <!-- FEATURED: IoT -->
+                <a href="iot-project.html" style="text-decoration: none; color: inherit;"
+                    class="project-card glass-panel featured iot-featured">
+                    <div class="project-badge">Projet Majeur • IoT & Web</div>
+                    <div class="project-content">
+                        <h3>[VIDEO] Fridgy : Serveur Web & Objet Connecté <i class='bx bx-play-circle'
+                                style="vertical-align: middle; margin-left: 5px; color: var(--iot-color);"></i></h3>
+                        <p>Conception et développement de A à Z d'un objet connecté (Fridgy). Mise en place du matériel
+                            Arduino, des capteurs, et intégration complète avec un serveur web pour la gestion et la
+                            visualisation des données en temps réel. <em>(Cliquez pour voir la vidéo)</em></p>
+                        <div class="tech-stack">
+                            <span>Arduino</span>
+                            <span>Capteurs</span>
+                            <span>Serveur Web</span>
+                            <span>HTML/CSS/JS</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- FEATURED: Cyber -->
+                <div class="project-card glass-panel featured cyber-featured">
+                    <div class="project-badge">Projet Majeur • Cybersécurité</div>
+                    <div class="project-content">
+                        <h3>Déploiement d'une Infrastructure Sécurisée</h3>
+                        <p>Déploiement et sécurisation d'une architecture d'entreprise. Implémentation d'une
+                            infrastructure à clé publique (PKI), configuration de tunnels VPN robustes et de pare-feux
+                            pour cloisonner le réseau.</p>
+                        <div class="tech-stack">
+                            <span>pfSense</span>
+                            <span>IPsec / OpenVPN</span>
+                            <span>PKI</span>
+                            <span>Règles FW</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- OTHER PROJECTS -->
+                <div class="project-card glass-panel">
+                    <div class="project-content">
+                        <h3>Analyse et Reverse Engineering Radio</h3>
+                        <p>Hacking éthique et rétro-ingénierie d'une télécommande RF. Interception des signaux radio,
+                            analyse spectrale et décodage complet des trames de données à l'aide d'outils SDR.</p>
+                        <div class="tech-stack">
+                            <span>SDR</span>
+                            <span>GNU Radio</span>
+                            <span>Reverse Engineering</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-panel">
+                    <div class="project-content">
+                        <h3>Conception et Adressage Réseau d'Entreprise</h3>
+                        <p>Conception d'un réseau local sous Cisco Modeling Labs. Mise en place de l'adressage IP,
+                            configuration des équipements, et sécurisation basique via ACLs.</p>
+                        <div class="tech-stack">
+                            <span>Cisco CML</span>
+                            <span>Routage</span>
+                            <span>ACL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-panel">
+                    <div class="project-content">
+                        <h3>Automatisation et Serveur Web en Python</h3>
+                        <p>Création d'un serveur web en Python couplé à une interface en ligne de commande (CLI) pour
+                            interagir avec des équipements et traiter des données.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>CherryPy</span>
+                            <span>CLI</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Projects Section -->
+    <section id="personal-projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projets Personnels</h2>
+            <p class="section-subtitle">Mes réalisations en dehors du cadre académique.</p>
+
+            <div class="projects-grid">
+
+                <div class="project-card glass-panel featured"
+                    style="border-color: rgba(99, 102, 241, 0.3); box-shadow: 0 10px 40px rgba(99, 102, 241, 0.1);">
+                    <div class="project-badge"
+                        style="background: rgba(99, 102, 241, 0.2); color: var(--primary-color);">Projet Personnel •
+                        Cloud</div>
+                    <div class="project-content">
+                        <h3>Cloud Auto-hébergé Familial (Type Google Photos)</h3>
+                        <p>Déploiement d'un cloud privé à domicile basé sur <strong>Immich</strong> via
+                            <strong>Docker</strong> pour remplacer Google Photos et héberger les photos de toute la
+                            famille. Ce projet a permis de réaliser des économies tout en garantissant la souveraineté
+                            de nos données.
+                        </p>
+                        <p style="margin-top: 0.8rem;">Il a fallu concevoir un système fluide et intuitif pour ne pas
+                            dépayser ma famille. J'ai relevé le défi de vulgariser cette technologie et de les former à
+                            son utilisation au quotidien.</p>
+                        <div class="tech-stack" style="margin-top: 1.5rem;">
+                            <span style="border-bottom: 1px solid var(--primary-color);">Immich</span>
+                            <span style="border-bottom: 1px solid var(--primary-color);">Docker</span>
+                            <span style="border-bottom: 1px solid var(--primary-color);">Auto-hébergement</span>
+                            <span style="border-bottom: 1px solid var(--primary-color);">Formation</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Me Contacter</h2>
+            <div class="contact-wrapper glass-panel">
+                <div class="contact-info">
+                    <h3>Discutons de mon alternance !</h3>
+                    <p>Je suis disponible pour un entretien ou pour vous présenter plus en détail mes projets et mes
+                        motivations pour mon année de BUT3.</p>
+                    <div class="contact-links">
+                        <a href="mailto:lucas.promayon@etu.univ-grenoble-alpes.fr" class="contact-btn">
+                            <i class='bx bx-envelope'></i> E-mail
+                        </a>
+                        <a href="https://www.linkedin.com/in/lucas-promayon/" target="_blank" class="contact-btn">
+                            <i class='bx bxl-linkedin'></i> LinkedIn
+                        </a>
+                        <a href="lucas_promayon_2026.pdf" target="_blank" class="contact-btn">
+                            <i class='bx bx-file'></i> Mon CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Lucas Promayon. Fait avec passion.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
