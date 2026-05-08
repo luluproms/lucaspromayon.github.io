@@ -40,22 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         appearOnScroll.observe(fader);
     });
 
-    // 3. Typing Effect on Hero Section
-    const typingText = document.querySelector('.typing-text');
-    const textToType = "Étudiant en BUT Réseaux & Télécommunications";
-    typingText.textContent = ''; // Clear initial text
-    let i = 0;
 
-    function typeWriter() {
-        if (i < textToType.length) {
-            typingText.textContent += textToType.charAt(i);
-            i++;
-            setTimeout(typeWriter, 50);
-        }
-    }
-
-    // Start typing effect after a short delay
-    setTimeout(typeWriter, 500);
 
     // 4. Parallax effect for background shapes
     document.addEventListener('mousemove', (e) => {
